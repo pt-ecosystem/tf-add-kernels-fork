@@ -65,9 +65,9 @@ try:
             ),
         },
         "MLP": {
-            "cuda": LayerRepository(
-                repo_id="medmekk/triton-llama-mlp",
-                layer_name="TritonLlamaMLP",
+            "npu": LayerRepository(
+                repo_id="kernels-ext-npu/mlp_opt_swiglu",
+                layer_name="MLP",
             )
         },
         "MegaBlocksMoeMLP": {
